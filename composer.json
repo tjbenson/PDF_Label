@@ -1,0 +1,16 @@
+{
+	"name": "tjbenson/fpdf_label",
+	"description": "PSR implementation of FPDF label class",
+	"authors": [
+	{
+		"name": "Tim Benson",
+		"email": "tim@creativecirclemedia.com"
+	}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"\\tjbenson": "src/"
+		}
+	}
+}
