@@ -1,6 +1,8 @@
 # fpdf_label
 PSR implementation of http://www.fpdf.org/en/script/script29.php
 
+Requires `php5-gd` and `php-fpdf` 
+
 Usage:
 
 ```
