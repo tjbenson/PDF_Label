@@ -44,19 +44,19 @@ namespace tjbenson;
 class PDF_Label extends \FPDF {
 
     // Private properties
-    protected $_Margin_Left;        // Left margin of labels
-    protected $_Margin_Top;            // Top margin of labels
-    protected $_X_Space;            // Horizontal space between 2 labels
-    protected $_Y_Space;            // Vertical space between 2 labels
-    protected $_X_Number;            // Number of labels horizontally
-    protected $_Y_Number;            // Number of labels vertically
-    protected $_Width;                // Width of label
-    protected $_Height;                // Height of label
-    protected $_Line_Height;        // Line height
-    protected $_Padding;            // Padding
-    protected $_Metric_Doc;            // Type of metric for the document
-    protected $_COUNTX;                // Current x position
-    protected $_COUNTY;                // Current y position
+    public $_Margin_Left;        // Left margin of labels
+    public $_Margin_Top;            // Top margin of labels
+    public $_X_Space;            // Horizontal space between 2 labels
+    public $_Y_Space;            // Vertical space between 2 labels
+    public $_X_Number;            // Number of labels horizontally
+    public $_Y_Number;            // Number of labels vertically
+    public $_Width;                // Width of label
+    public $_Height;                // Height of label
+    public $_Line_Height;        // Line height
+    public $_Padding;            // Padding
+    public $_Metric_Doc;            // Type of metric for the document
+    public $_COUNTX;                // Current x position
+    public $_COUNTY;                // Current y position
 
     // List of label formats
     protected $_Avery_Labels = array(
